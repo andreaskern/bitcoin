@@ -36,7 +36,7 @@ enum Network
     NET_IPV6,
     NET_TOR,
 
-    NET_MAX,
+    NET_MAX, // NOTE(AK): this entry is used for checking if it is possible to connect to an IP address
 };
 
 /** IP address (IPv6, or IPv4 using mapped IPv6 range (::FFFF:0:0/96)) */
